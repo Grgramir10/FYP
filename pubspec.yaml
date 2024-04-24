@@ -1,0 +1,36 @@
+name: ecom_2
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter:
+    sdk: flutter
+  floating_bottom_navigation_bar: ^1.5.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  image_picker: ^1.0.2
+  khalti_flutter: ^3.0.0
+  lottie: ^3.1.0
+  water_drop_nav_bar: ^2.2.1
+  ff_navigation_bar_plus: ^0.1.5
+  dropdown_button2: ^2.3.9
+  fl_chart: ^0.67.0
+  flutter_rating_bar: ^4.0.1
+  url_launcher: ^6.0.6
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets\LOGO.png
+    - assets\logo.json
